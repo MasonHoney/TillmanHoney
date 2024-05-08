@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scal=1.0" />
+        <link rel="stylesheet" href="styles.css"/>
+        <title>TIllman Honey - Home</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <header class="header">
+                    
+                    <section>
+                        
+                        <nav id="nav-bar">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./services.html">Services</a></li>
+                                <li><a href="./quote.html">Get a Quote</a></li>
+                                <li><a href="./about.html">About Us</a></li>
+                                <li><a href="./faq.html">FAQ</a></li>    
+                                <li><a href="./contacts.html">Contact Us</a></li>
+                            </ul>
+                        </nav>  
+                    </section>
+                </header>
+            </section>
+            <section>
+                <div class="page-title">
+                    <h1 class="title">Tillman Honey</h1>
+                    <img id="main-img" src="./assets/pictures/Dozer-header.jpeg" alt="Tow bulldozers facing each other."/>
+                    
+                </div>
+                <p class="sub-title">Quality earthmoving since <span id="founding-year">1953</span> !</p>
+            </section>
+            <hr>
+            <h2 class="slideshow-title">Photo Gallery</h2>
+            <section class="slide-show main">
+                <div  class="slideshow-container fade">
+                <!--These are the photos for the main slideshow-->
+                    <div class="containers">
+                        <div class="message-info">1 / 5</div>
+                        <img src="./assets/pictures/cutting-deep-short.jpeg" alt="One of our dozers cutting a deep trench to start a project.">
+                        <div class="info">Cutting Deep</div>
+                    </div>
+                    <div class="containers">
+                        <div class="message-info">2 / 5</div>
+                        <img src="assets/pictures/mitchell-driving-d8h-short.jpeg" alt="Mitchell Honey and Mike Farrah operating one of our Caterpillar D8H dozers.">
+                        <div class="info">Mitchell and Mike running our D8H</div>
+                    </div>
+                    <div class="containers">
+                        <div class="message-info">3 / 5</div>
+                        <img src="assets/pictures/mike-driving-d8h-short.jpeg" alt="Mike Farrah and Mitchell Honey operating one of our Caterpillar D8H dozers.">
+                        <div class="info">Mike's turn at the controls</div>
+                    </div>
+                    <div class="containers">
+                        <div class="message-info">4 / 5</div>
+                        <img src="./assets/pictures/old-cat-short.jpeg" alt="Mitchell on one of our older dozers">
+                        <div class="info">Mitchell on an older machine</div>
+                    </div>
+                    <div class="containers">
+                        <div class="message-info">5 / 5</div>
+                        <img src="./assets/pictures/rained-out-short.jpeg" alt="work stops on a rainy day">
+                        <div class="info">Rainy Day</div>
+                    </div>
+                    <!--<div class="containers">
+                        <div class="message-info"># / #</div>
+                        <img src="" alt="">
+                        <div class="info">caption</div>
+                    </div>-->
+                <!--These are the nav buttons for the slideshow-->
+                    <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!--circles and dots-->
+                <div style="text-align: center;">
+                    <span class="dots" onclick="currentSlide(1)"></span>
+                    <span class="dots" onclick="currentSlide(2)"></span>
+                    <span class="dots" onclick="currentSlide(3)"></span>
+                    <span class="dots" onclick="currentSlide(4)"></span>
+                    <span class="dots" onclick="currentSlide(5)"></span>
+                   <!--<span class="dots" onclick="currentSlide()"></span>-->
+                </div>
+            </section>
+            <footer>
+                <hr>
+                <div class="footer">
+                    <ul class="footer-links">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./quote.html">Get a Quote</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                        <li><a href="./contacts.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+    
+</html>
